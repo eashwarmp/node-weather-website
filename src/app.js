@@ -1,8 +1,8 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const geocode = require('../../web-server/src/utils/geocode')
-const forecast = require('../../web-server/src/utils/forecast')
+const geocode = require('../src/utils/geocode')
+const forecast = require('../src/utils/forecast')
 
 console.log(__dirname)
 console.log(path.join(__dirname, '../public'))
